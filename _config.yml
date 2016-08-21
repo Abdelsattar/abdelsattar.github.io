@@ -1,5 +1,5 @@
 # Site settings
-title: mAbdelsattar
+title: m.Abd el-sattar
 email: m.abdelsattarahmed@gmail.com
 url: https://abdelsattar.github.io
 description: "An Android developer personal website Name Mohammed Abd EL-Sattar certified As Android developer by Google-Udacity and MCIT Scholarship now aim to apply material design in every app he make and follow all guidelines by Google to generate Awesome app in UI and Performance."
@@ -38,21 +38,20 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: linkedin
+    url: https://eg.linkedin.com/in/mabdelsattar1
   - title: twitter
     url: http://twitter.com/abdelsattar512
   - title: facebook
     url: https://www.facebook.com/m.abdelsattar0
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/
   - title: github
     url: http://github.com/abdelsattar
+ 
 
 # Postal address (add as many lines as necessary)
 address:
   - line: 10 – EL Moawen St,
-  - line: Omranya (East), Giza ,Egypt
+  - line: Omranya, Giza ,Egypt
 
 # Credits content
 credits: 'This is a free themes and cutsomized by @Abdelsattar and free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
