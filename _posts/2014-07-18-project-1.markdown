@@ -3,6 +3,7 @@ layout: default
 modal-id: 1
 date: 2016-06-15
 img: foundura.png
+title: Foundura
 alt: image-alt
 project-date: June 2014
 client: Faculty of Computer Science
