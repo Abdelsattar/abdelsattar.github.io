@@ -8,6 +8,6 @@ alt: image-alt
 project-date: June 2016
 client: Faculty of Computer Science
 category: Graduation Project
-description: It was a social network android application for lost and found things like (bags, electronic devices, children )<br> <a href="https://goo.gl/ojBNpY/">Foundura APk </a>.
+description: It was a social network android application for lost and found things like (bags, electronic devices, children )<br> <a href="https://goo.gl/ojBNpY/">Foundura APk </a> <br> <a href="http://goo.gl/6Zhahv">Foundura Screenshots </a> .
 
 ---

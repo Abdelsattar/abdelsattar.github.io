@@ -8,6 +8,6 @@ alt: image-alt
 project-date: April 2016
 client: MOIC
 category: Android Development
-description: it is app that Help you mange your tasks and you can that <br> 1- top 3 tasks to urgent to do <br> 2- all to-do task to remind you <br> 3- contact these persons ASAP <br> 4- Being thankful for these things <br> mark every pray to remind you everyday <br> <a href="https://goo.gl/LXgwe8">Download App on Google Play </a>.
+description: it is app that Help you mange your tasks and you can that <br> 1- top 3 tasks to urgent to do <br> 2- all to-do task to remind you <br> 3- contact these persons ASAP <br> 4- Being thankful for these things <br> mark every pray to remind you everyday <br> <a href="http://goo.gl/vI2XKF">Download App on Google Play </a>.
 
 ---
