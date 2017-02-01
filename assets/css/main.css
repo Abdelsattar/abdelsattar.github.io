@@ -1598,6 +1598,9 @@
 		font-style: italic;
 	}
 
+	largefont{
+		 size: 300%;
+	}
 	p {
 		margin: 0 0 2em 0;
 	}
