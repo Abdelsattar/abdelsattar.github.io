@@ -1,159 +1,405 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html> 
-	
-	<head>
-		<title>Sattar Website</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body id="top">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Mostafa | Senior Android Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/modern.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">MM</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact" class="nav-cta">Get in Touch</a>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/profile.png" alt="" /></a>
-					<h1><strong>I am Sattar</strong>, Android developer<br />
-					And Freelancer Software Enginner <br />
-					from Cairo,EG.</h1>
-				</div>
-			</header>
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Mohamed Mostafa</h1>
+                <h2 class="hero-title">Senior Android Engineer</h2>
+                <p class="hero-description">
+                    9+ years of experience designing and scaling mobile applications for millions of users. 
+                    Currently building exceptional mobile experiences at <span class="highlight">Just Eat Takeaway</span> in Berlin.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">9+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">6</span>
+                        <span class="stat-label">Companies</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">300K+</span>
+                        <span class="stat-label">Users Served</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Let's Connect</a>
+                    <a href="#experience" class="btn btn-secondary">View Experience</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-frame">
+                    <img src="images/profile-new.jpg" alt="Mohamed Mostafa at Google I/O Connect Berlin">
+                </div>
+                <div class="floating-badge">
+                    <i class="fab fa-android"></i>
+                    <span>Android Expert</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
 
-		<!-- Main -->
-			<div id="main">
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">
+                        Results-driven Senior Android Engineer passionate about turning ideas into scalable, high-quality mobile applications.
+                    </p>
+                    <p>
+                        With expertise in <strong>Kotlin</strong>, <strong>Jetpack Compose</strong>, and <strong>Clean Architecture</strong>, 
+                        I specialize in performance optimization, CI/CD automation, and cross-functional collaboration. 
+                        My proven track record includes improving app stability, code quality, and delivery speed 
+                        across fast-growing startups and enterprise environments.
+                    </p>
+                    <p>
+                        I hold a B.S. in Computer Science from Cairo University and currently work at Just Eat Takeaway 
+                        in Berlin, where I lead migrations, optimize pipelines, and build features that impact millions of users.
+                    </p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <i class="fas fa-rocket"></i>
+                        <h4>Performance Focused</h4>
+                        <p>Reduced app crashes by 4% and improved startup times by 12%</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-code-branch"></i>
+                        <h4>CI/CD Expert</h4>
+                        <p>Cut deployment time by 15% through pipeline optimization</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-users"></i>
+                        <h4>Team Player</h4>
+                        <p>Led cross-functional teams across startups and enterprises</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-						</header>
-						<largefont> Want Build your App? <br /> You are with the right person <br /> </largefont>
-					</section>
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker current"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Senior Android Engineer</h3>
+                                <h4>Just Eat Takeaway</h4>
+                            </div>
+                            <span class="timeline-date">Dec 2022 - Present</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Optimized CI/CD pipelines, cutting deployment time by 15% and improving release reliability</li>
+                            <li>Designed and shipped the courier-customer chat feature, improving delivery coordination by 40%</li>
+                            <li>Led the migration from XML to Jetpack Compose, implementing 75% of feature parity</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Kotlin</span>
+                            <span>Jetpack Compose</span>
+                            <span>MVI</span>
+                            <span>Hilt</span>
+                            <span>CameraX</span>
+                        </div>
+                    </div>
+                </div>
 
-					<section id="one">
-						<header class="major">
-							<h2>Want to ask me "Tell me brief about Yourself ?" <h4>Just read the next 2 lines</h4> </h2>
-						</header>
-						<p>I'm Mohammed Abd EL-Sattar Passionate about Turn ideas into real apps,love programming than anything else, Have a Computer Sience degree from Cario University, Love to write Clean code with minimum number lines of code with Design patterns and try to vaildate functions via Unit testing</p>
-						
-					</section>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Senior Android Engineer</h3>
+                                <h4>JUCR GmbH</h4>
+                            </div>
+                            <span class="timeline-date">Jul 2021 - Oct 2022</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Developed and maintained the JUCR EV charging app, serving users across 300K+ European stations</li>
+                            <li>Reduced app crashes by 4% and improved startup times by 12% via architectural refactoring</li>
+                            <li>Integrated GraphQL with Kotlin Coroutines to enhance data performance</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Kotlin</span>
+                            <span>MVVM</span>
+                            <span>GraphQL</span>
+                            <span>Coroutines</span>
+                        </div>
+                    </div>
+                </div>
 
-				<!-- Two -->
-					<section id="two">
-						<h2>Recent Work</h2>
-						<div class="row">
-							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.png" alt="" /></a>
-								<h2>SAK صك</h2>
-								<h5>It is the Ministry of Justice of Qatar's official application for the Real Estate Registration and Authentication Department's electronic services.</h5>
-								<a href="https://play.google.com/store/apps/details?id=com.informatique_.SAK" >SAK on Google Play </a>
-							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.png" alt="" /></a>
-								<h2>Foundura</h2>
-								<h5>It is a social network android application for lost and found things like (bags, electronic devices, and children).</h5>
-								<a href="https://play.google.com/store/apps/details?id=com.sattar.foundura" >Foundura on Google Play </a>
-							</article>
-							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.png" alt="" /></a>
-								<h2>FOCUS</h2>
-								<h5>it is app that help you to remember your tasks and your pray every day and put details of your tasks in one app.</h5>
-								<a href="https://play.google.com/store/apps/details?id=abdelsattar.com.focusII" >FOCUS on Google Play </a>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Software Engineer</h3>
+                                <h4>Hexad GmbH / Volkswagen</h4>
+                            </div>
+                            <span class="timeline-date">Oct 2019 - Jul 2021</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Built and maintained internal Android SDKs powering Volkswagen Group applications</li>
+                            <li>Improved unit test coverage and adopted code quality automation</li>
+                            <li>Refactored legacy codebases to cut build times and memory usage</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Android SDK</span>
+                            <span>JUnit</span>
+                            <span>Gradle</span>
+                        </div>
+                    </div>
+                </div>
 
-							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.png" alt="" /></a>
-								<h2>Dynamic Protocols</h2>
-								<h5>This is made for helping Scientists to make their protocols and save it in the app and can back to them whenever he want for editing and for run it step by step to follow it when he run the experiment in the laboratory.</h5>
-								<a href="https://play.google.com/store/apps/details?id=com.sattar.dynamicprotocol" >Dynamic Protocols on Google Play </a>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Android Engineer</h3>
+                                <h4>Winfooz</h4>
+                            </div>
+                            <span class="timeline-date">May 2019 - Oct 2019</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Led end-to-end development of secure in-app signature features for trading platform</li>
+                            <li>Enhanced runtime performance and maintainability via architecture refactor</li>
+                        </ul>
+                    </div>
+                </div>
 
-							</article>
-							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.png" alt="" /></a>
-								<h2>Podra</h2>
-								<h5>It is application for mange all cars in Podra company and to view what is in the stock also to report problems about cars.</h5>		
-							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.png" alt="" /></a>
-								<h2>Pidgin Radio </h2>
-								<h5>It is customized app for Pidgin online radio that broadcast to Pidgin songs all the day.</h5>
-								<a href="https://play.google.com/store/apps/details?id=com.sattar.pidginradio" >Pidgin Radio on Google Play </a>
-							</article>
-						</div>
-						<!---
-						<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul>
-						-->
-					</section>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Android Developer</h3>
+                                <h4>CrossWorkers / Data Know How</h4>
+                            </div>
+                            <span class="timeline-date">Jun 2018 - May 2019</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Managed feature delivery from requirement analysis to testing and deployment</li>
+                            <li>Reduced technical debt through systematic refactoring and modernization</li>
+                        </ul>
+                    </div>
+                </div>
 
-				<!-- Three -->
-					<section id="three">
-						<h2>Get In Touch</h2>
-						<p>If you want me to develop your app or you want to ask anything don't hesitate send me email or contact me via Facebook </p>
-						<div class="row">
-							<div class="8u 12u$(small)">
-								<form method="post" action="#">
-									<div class="row uniform 50%">
-										<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div>
-							<div class="4u$ 12u$(small)">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon fa-home"><span class="label">Address</span></h3>
-										10 Moaaen St,<br />
-										Giza, Egypt
-									</li>
-									<li>
-										<h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
-										+201225140459
-									</li>
-									<li>
-										<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
-										m.abdelsattarahmed@gmail.com
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Android Developer</h3>
+                                <h4>NAQLA</h4>
+                            </div>
+                            <span class="timeline-date">Oct 2016 - Jun 2018</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Developed logistics apps enabling real-time fleet tracking and delivery management</li>
+                            <li>Owned full release cycles, publishing updates to the Play Store</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			</div>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag primary">Kotlin</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">XML</span>
+                    </div>
+                </div>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://eg.linkedin.com/in/mabdelsattar1" class="icon fa-linkedin"><span class="label">Linked-in</span></a></li>
-						<li><a href="https://www.facebook.com/m.abdelsattar0" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="https://twitter.com/abdelsattar512" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://github.com/Abdelsattar" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="m.abdelsattarahmed@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Sattar 2017</li>
-					</ul>
-				</div>
-			</footer>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Frameworks & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag primary">Jetpack Compose</span>
+                        <span class="skill-tag">Room</span>
+                        <span class="skill-tag">Retrofit</span>
+                        <span class="skill-tag">GraphQL</span>
+                        <span class="skill-tag">Flow</span>
+                        <span class="skill-tag">Coroutines</span>
+                    </div>
+                </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h3>Architecture</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag primary">Clean Architecture</span>
+                        <span class="skill-tag">MVVM</span>
+                        <span class="skill-tag">MVI</span>
+                        <span class="skill-tag">Modularization</span>
+                    </div>
+                </div>
 
-	</body>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>DevOps & Testing</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag primary">CI/CD</span>
+                        <span class="skill-tag">Gradle</span>
+                        <span class="skill-tag">Bitrise</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Espresso</span>
+                        <span class="skill-tag">JUnit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-badge">Current</div>
+                    <div class="project-icon">
+                        <i class="fas fa-motorcycle"></i>
+                    </div>
+                    <h3>Takeaway.com Courier App</h3>
+                    <p>Courier-facing app enabling real-time delivery tracking, order management, and customer communication for one of Europe's largest food delivery platforms.</p>
+                    <div class="project-tech">
+                        <span>Kotlin</span>
+                        <span>Jetpack Compose</span>
+                        <span>MVI</span>
+                        <span>Hilt</span>
+                        <span>CameraX</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-charging-station"></i>
+                    </div>
+                    <h3>JUCR EV Charging App</h3>
+                    <p>Android application providing access to 300K+ EV charging stations across Europe with search, reservation, and seamless payment integration.</p>
+                    <div class="project-tech">
+                        <span>Kotlin</span>
+                        <span>MVVM</span>
+                        <span>GraphQL</span>
+                        <span>Coroutines</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Volkswagen Internal SDKs</h3>
+                    <p>Core Android SDKs powering applications across the Volkswagen Group, focusing on performance, reliability, and developer experience.</p>
+                    <div class="project-tech">
+                        <span>Android SDK</span>
+                        <span>Kotlin</span>
+                        <span>Java</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Build Something Great</h2>
+            <p class="contact-intro">
+                I'm always open to discussing new projects, opportunities, or just having a chat about Android development.
+            </p>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Location</h4>
+                    <p>Berlin, Germany</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <a href="mailto:m.abdelsattarahmed@gmail.com">m.abdelsattarahmed@gmail.com</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h4>Phone</h4>
+                    <a href="tel:+4917391014272">+49 173 910 14272</a>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/mabdelsattar1" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Abdelsattar" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://twitter.com/abdelsattar512" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="mailto:m.abdelsattarahmed@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mohamed Mostafa. Crafted with passion in Berlin.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/modern.js"></script>
+</body>
 </html>
-
